@@ -1,0 +1,115 @@
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+p, h1, h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.innerForm{
+    padding: 20px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    
+}
+.head{
+    color: rgb(39, 39, 77);
+}
+.account{
+    text-align: center;
+    color: rgb(39, 39, 77);
+}
+.enter{
+    text-align: center;
+}
+label{
+    margin-top: 20px;
+}
+input{
+    margin-top: 5px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid gray 0.5px;
+}
+button{
+    width: 370px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: rgb(99, 99, 244);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.checkbox{
+    display: inline;
+    font-size: 12px;
+}
+.checkboxInput{
+    width: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.activeColor{
+    padding-top: 5px;
+    border: 2px solid rgb(13, 13, 32);
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;
+}
+#signin{
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#signup{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .LoginForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+    
+    }
+    .innerForm{
+        padding: 20px;
+        background-color: whitesmoke;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        border-radius: 10px;
+        width: 90%;  
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 300px;
+    }
+    button{
+        width: 320px;
+    }
+}
